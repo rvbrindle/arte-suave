@@ -19,7 +19,7 @@ module.exports = {
             },
 
             animation: {
-                'fadeInLeft': "fadeIn 1s ease-in forwards, fromLeft 1.8s ease-in-out forwards",
+                'fadeInLeft': "fadeIn 1.8s ease-in forwards, fromLeft 1.8s ease-in-out forwards",
                 'fadeIn': "fadeIn 2s ease-in-out",
             },
 

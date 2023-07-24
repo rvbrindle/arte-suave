@@ -22,7 +22,7 @@ export default function ContactForm({ title, media }) {
     };
 
     return (
-        <form className={ 'mt-6 py-24 w-3/4 text-2xl text-center mx-auto flex-col bg-zinc-800 rounded-lg border-2 border-white shadow-2xl' } onSubmit={ submit }>
+        <form className={ 'mt-6 py-4 w-11/12 md:w-3/4 text-xl text-center mx-auto flex-col bg-zinc-800 rounded-lg border-2 border-white shadow-2xl' } onSubmit={ submit }>
             <div className={ 'w-3/4 mx-auto form-group flex flex-col' }>
                 <label className='my-4'>Name:
                 <input
