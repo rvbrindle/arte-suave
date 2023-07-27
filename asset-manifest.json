@@ -1,20 +1,16 @@
 {
   "files": {
-    "main.css": "/arte-suave/static/css/main.be552481.css",
-    "main.js": "/arte-suave/static/js/main.f053d2b5.js",
+    "main.css": "/arte-suave/static/css/main.6454317d.css",
+    "main.js": "/arte-suave/static/js/main.5ad8b171.js",
     "static/js/787.945bd788.chunk.js": "/arte-suave/static/js/787.945bd788.chunk.js",
-    "static/media/john.png": "/arte-suave/static/media/john.c8b8a897f0ed7554c433.png",
-    "static/media/roy.png": "/arte-suave/static/media/roy.78272a676421690a4da4.png",
     "static/media/arte-suave-logo.png": "/arte-suave/static/media/arte-suave-logo.1cce0a419d822054682c.png",
-    "static/media/negaoLogo.png": "/arte-suave/static/media/negaoLogo.fbb74072d554d45c569d.png",
-    "static/media/avmaLogo.png": "/arte-suave/static/media/avmaLogo.7d51a23540d88450359a.png",
     "index.html": "/arte-suave/index.html",
-    "main.be552481.css.map": "/arte-suave/static/css/main.be552481.css.map",
-    "main.f053d2b5.js.map": "/arte-suave/static/js/main.f053d2b5.js.map",
+    "main.6454317d.css.map": "/arte-suave/static/css/main.6454317d.css.map",
+    "main.5ad8b171.js.map": "/arte-suave/static/js/main.5ad8b171.js.map",
     "787.945bd788.chunk.js.map": "/arte-suave/static/js/787.945bd788.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be552481.css",
-    "static/js/main.f053d2b5.js"
+    "static/css/main.6454317d.css",
+    "static/js/main.5ad8b171.js"
   ]
 }
