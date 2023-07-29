@@ -12,7 +12,7 @@ export default function LandingPage() {
                     <h1 className='text-4xl font-extrabold'>Arte <span>Suave</span></h1>
                     <h3 className='md:text-2xl sm:text-xl tracking-widest'>Jiujitsu</h3>
                 </div>
-                <div className='text-red-700 text-center motion-safe:animate-fadeIn text-lg'> Coming 22/8/23</div>
+                <div className='text-red-700 text-center motion-safe:animate-fadeIn text-lg'> Coming <strong>Soon</strong></div>
                 <div className='text-neutral-100 text-2xl boldest mt-4 motion-safe:animate-fadeIn mb-12'>
                     <p>
                         New Era Fitness
@@ -29,7 +29,7 @@ export default function LandingPage() {
                     </p>
                 </div>
 
-                <div className='w-full text-neutral-100 bg-red-700 py-6 fixed bottom-0'>
+                <div className='w-full text-neutral-100 bg-red-700 py-2 fixed bottom-0'>
                     <p>&copy; Arte Suave - {date.getFullYear()}</p>
                 </div>
             </div>
