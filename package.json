@@ -20,7 +20,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://rvbrindle.github.io/arte-suave",
   "eslintConfig": {
     "extends": [
       "react-app",
