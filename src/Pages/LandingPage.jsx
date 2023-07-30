@@ -17,7 +17,7 @@ export default function LandingPage() {
                     <p>
                         New Era Fitness
                         <br/>
-                        Unit 8, 9, 24
+                        Unit 8, 9, 14
                         <br/>
                         Kirk Lane
                         <br/>
