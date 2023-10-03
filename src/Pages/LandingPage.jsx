@@ -14,7 +14,7 @@ export default function LandingPage() {
                 </div>
                 <div className='text-red-700 text-center motion-safe:animate-fadeIn text-lg'> Coming <strong>Soon</strong></div>
                 <div className='text-neutral-100 text-2xl boldest mt-4 motion-safe:animate-fadeIn mb-12'>
-                    <p>
+                    {/* <p>
                         New Era Fitness
                         <br/>
                         Unit 8, 9, 14
@@ -26,7 +26,7 @@ export default function LandingPage() {
                         LS19 7LX
                         <br />
                         <a className='w-full mt-4 mx-auto align-middle text-red-700 flex flex-row justify-center hover:scale-110 hover:text-neutral-100 transition ease-in-out' href="mailto:info@artesuave.co.uk"><EnvelopeIcon className='w-11 mr-3'></EnvelopeIcon> <p className='flex text-lg align-middle my-auto'> Contact us for more info </p></a>
-                    </p>
+                    </p> */}
                 </div>
 
                 <div className='w-full text-neutral-100 bg-red-700 py-2 fixed bottom-0'>
