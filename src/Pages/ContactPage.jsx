@@ -21,7 +21,7 @@ export default function ContactPage() {
                         className='text-lg align-middle my-auto pl-3 hidden sm:flex'>Mail</p>
                     </a>
                     <a className='w-full md:w-1/3 align-middle text-neutral-100 flex flex-row justify-center hover:scale-110 hover:text-red-700 transition ease-in-out'
-                       href="mailto:info@artesuave.co.uk">
+                       href="https://www.facebook.com/profile.php?id=61563344016748">
                         <Icon
                             width='11'
                             icon='instagram'
@@ -29,7 +29,7 @@ export default function ContactPage() {
                         className='text-lg align-middle my-auto pl-3 hidden sm:flex'>Instagram</p>
                     </a>
                     <a className='w-full md:w-1/3 align-middle text-neutral-100 flex flex-row justify-center hover:scale-110 hover:text-red-700 transition ease-in-out'
-                       href="mailto:info@artesuave.co.uk">
+                       href="https://www.instagram.com/artesuaveleeds">
                         <Icon
                             width='11'
                             icon='facebook'

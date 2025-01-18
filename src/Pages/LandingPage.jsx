@@ -15,7 +15,7 @@ import BgImg from "../Components/BgImg";
 
     return (
         <>
-            <div className='screen-1 w-screen min-h-screen flex text-center flex-col bg-black bg-opacity-90'>
+            <div className='screen-1 w-screen min-h-screen flex text-center flex-col bg-black bg-opacity-80'>
                 <BgImg />
                 <Logo />
                 <div className='container text-neutral-100 mx-auto mb-2 motion-safe:animate-fadeInLeft'>
