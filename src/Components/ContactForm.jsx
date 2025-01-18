@@ -137,7 +137,7 @@ export default function ContactForm({title, media}) {
                     <input
                         className="w-3/4 ml-4 p-2 text-zinc-900"
                         name="referral"
-                        type="tel"
+                        type="text"
                         value={formData.referral}
                         required={true}
                         onChange={handleChange}
