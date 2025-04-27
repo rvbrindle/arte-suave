@@ -7,12 +7,12 @@ export default function ContactPage() {
         <>
             <div
                 id='contact-page'
-                className='screen-1 w-screen min-h-screen bg-black flex text-center flex-col'>
-                <div className='container text-white mx-auto mb-2 py-12 motion-safe:animate-fadeInLeft'>
-                    <h1 className='text-4xl font-extrabold'>Get in <span>Touch</span></h1>
+                className='screen-1 w-screen min-h-screen bg-neutral-200 flex text-center flex-col'>
+                <div className='container text-black mx-auto mb-2 py-12 motion-safe:animate-fadeInLeft'>
+                    <h1 className='text-2xl md:text-4xl font-extrabold pb-2'>Get in <span>Touch</span></h1>
                 </div>
                 <div className='mx-auto w-3/4 flex flex-row justify-center items-center'>
-                    <a className='w-full md:w-1/3 align-middle text-neutral-100 flex flex-row justify-center hover:scale-110 hover:text-red-700 transition ease-in-out'
+                    <a className='w-full md:w-1/3 align-middle text-black flex flex-row justify-center hover:scale-110 hover:text-red-700 transition ease-in-out'
                        href="mailto:info@artesuave.co.uk">
                         <Icon
                             width='11'
@@ -20,7 +20,7 @@ export default function ContactPage() {
                         /> <p
                         className='text-lg align-middle my-auto pl-3 hidden sm:flex'>Mail</p>
                     </a>
-                    <a className='w-full md:w-1/3 align-middle text-neutral-100 flex flex-row justify-center hover:scale-110 hover:text-red-700 transition ease-in-out'
+                    <a className='w-full md:w-1/3 align-middle text-black flex flex-row justify-center hover:scale-110 hover:text-red-700 transition ease-in-out'
                        href="https://www.facebook.com/profile.php?id=61563344016748">
                         <Icon
                             width='11'
@@ -28,7 +28,7 @@ export default function ContactPage() {
                         /> <p
                         className='text-lg align-middle my-auto pl-3 hidden sm:flex'>Instagram</p>
                     </a>
-                    <a className='w-full md:w-1/3 align-middle text-neutral-100 flex flex-row justify-center hover:scale-110 hover:text-red-700 transition ease-in-out'
+                    <a className='w-full md:w-1/3 align-middle text-black flex flex-row justify-center hover:scale-110 hover:text-red-700 transition ease-in-out'
                        href="https://www.instagram.com/artesuaveleeds">
                         <Icon
                             width='11'
@@ -37,7 +37,7 @@ export default function ContactPage() {
                         className='text-lg align-middle my-auto pl-3 hidden sm:flex'>Facebook</p>
                     </a>
                 </div>
-                <div className='text-2xl boldest mt-4 motion-safe:animate-fadeIn mb-24'>
+                <div className='text-2xl boldest motion-safe:animate-fadeIn mb-8'>
                     <ContactForm/>
                 </div>
             </div>

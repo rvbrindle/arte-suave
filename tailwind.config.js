@@ -5,9 +5,6 @@ module.exports = {
     ],
     theme: {
         extend: {
-            backgroundImage: {
-                'logo-alt': "url('/src/Assets/logo-alt.png')"
-            },
             letterSpacing: {
                 tightest: '-.075em',
                 tighter: '-.05em',

@@ -19,8 +19,8 @@ export default function ContactForm({title, media}) {
             setFormData((prev) => ({
                 ...prev,
                 contactPrefs: checked
-                    ? [...prev.contactPrefs, value] // Add preference if checked
-                    : prev.contactPrefs.filter((pref) => pref !== value) // Remove preference if unchecked
+                    ? [...prev.contactPrefs, value]
+                    : prev.contactPrefs.filter((pref) => pref !== value)
             }));
         } else {
             setFormData((prev) => ({
@@ -51,7 +51,7 @@ export default function ContactForm({title, media}) {
     return (
         <form
             method="post"
-            className="mt-6 text-white py-4 w-11/12 md:w-3/4 text-xl text-center mx-auto flex-col bg-red-950 rounded-lg border-2 border-white shadow-2xl"
+            className="mt-6 text-neutral-100 py-4 w-11/12 md:w-3/4 text-xl text-center mx-auto flex-col bg-black bg-opacity-80 rounded-lg border-2 border-red-700 shadow-2xl"
             onSubmit={(e) => {
                 e.preventDefault();
                 handleSubmit();
@@ -59,11 +59,10 @@ export default function ContactForm({title, media}) {
         >
             <ToastContainer />
             <div className="w-3/4 mx-auto form-group flex flex-col">
-                Contact Form
                 <label className="my-4 justify-evenly align-middle items-center flex flex-row">
                     <p className='w-1/4'>Name:</p>
                     <input
-                        className="w-3/4 p-2 text-zinc-900"
+                        className="w-3/4 p-2 text-zinc-900 focus:outline-red-700"
                         name="name"
                         type="text"
                         value={formData.name}
@@ -75,7 +74,7 @@ export default function ContactForm({title, media}) {
                 <label className="my-4 justify-evenly align-middle items-center flex flex-row">
                     <p className='w-1/4'>Email:</p>
                     <input
-                        className="w-3/4 p-2 text-zinc-900"
+                        className="w-3/4 p-2 text-zinc-900 focus:outline-red-700"
                         name="email"
                         type="email"
                         value={formData.email}
@@ -85,9 +84,9 @@ export default function ContactForm({title, media}) {
                 </label>
 
                 <label className="my-4 justify-evenly align-middle items-center flex flex-row">
-                    <p className='w-1/4'>DOB:</p>
+                    <p className='w-1/4'>Date of Birth:</p>
                     <input
-                        className="w-3/4 p-2 text-zinc-900"
+                        className="w-3/4 p-2 text-zinc-900 focus:outline-red-700"
                         name="dateOfBirth"
                         type="date"
                         value={formData.dateOfBirth}
@@ -99,7 +98,7 @@ export default function ContactForm({title, media}) {
                 <label className="my-4 justify-evenly align-middle items-center flex flex-row">
                     <p className='w-1/4'>Tel:</p>
                     <input
-                        className="w-3/4 p-2 text-zinc-900"
+                        className="w-3/4 p-2 text-zinc-900 focus:outline-red-700"
                         name="telephone"
                         type="tel"
                         value={formData.telephone}
@@ -133,9 +132,9 @@ export default function ContactForm({title, media}) {
                 </div>
 
                 <label className="my-4 justify-evenly align-middle items-center flex flex-row">
-                    <p className='w-1/4'>Referral source?:</p>
+                    <p className='w-1/4'>Referral source:</p>
                     <input
-                        className="w-3/4 ml-4 p-2 text-zinc-900"
+                        className="w-3/4 p-2 text-zinc-900 focus:outline-red-700"
                         name="referral"
                         type="text"
                         value={formData.referral}
