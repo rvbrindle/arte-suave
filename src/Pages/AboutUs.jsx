@@ -11,7 +11,7 @@ export default function AboutUs() {
                 id='about-us'
                 className='screen-1 w-screen min-h-screen flex text-center flex-col bg-neutral-200 bg-opacity-85 relative'>
                 <BgImg img={'about-us-bg.png'}/>
-                <div className='container text-black mx-auto mb-2 py-6 md:py-12 motion-safe:animate-fadeInLeft'>
+                <div className='container text-black mx-auto mb-2 py-6 md:py-12 motion-safe:animate-fadeInLeft p-8'>
                     <h1 className='text-2xl md:text-4xl font-extrabold pb-4 md:pb-8'>Who We <span>Are?</span></h1>
                     <p className='py-8'>At Arte Suave, we believe Brazilian jiu jitsu is for everyone. Whether you’re
                         looking to get in

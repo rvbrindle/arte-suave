@@ -23,7 +23,7 @@ import Lineage from "./Lineage";
             <div className='screen-1 w-screen min-h-screen flex text-center flex-col bg-black bg-opacity-70'>
                 <BgImg img={'bg-as-img.png'}/>
                 <Logo />
-                <div className='container text-neutral-100 mx-auto mb-2 motion-safe:animate-fadeInLeft'>
+                <div className='container text-neutral-100 mx-auto mb-2 motion-safe:animate-fadeInLeft p-8'>
                     <h1 className='text-2xl md:text-4xl font-extrabold'>Arte <span>Suave</span></h1>
                     <h3 className='md:text-2xl sm:text-xl tracking-widest'>Jiujitsu</h3>
                 </div>

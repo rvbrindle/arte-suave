@@ -60,7 +60,7 @@ export default function ContactForm({title, media}) {
             <ToastContainer />
             <div className="w-3/4 mx-auto form-group flex flex-col">
                 <label className="my-4 justify-evenly align-middle items-center flex flex-row">
-                    <p className='w-1/4'>Name:</p>
+                    <p className='w-1/4'>Name: </p>
                     <input
                         className="w-3/4 p-2 text-zinc-900 focus:outline-red-700"
                         name="name"
@@ -72,7 +72,7 @@ export default function ContactForm({title, media}) {
                 </label>
 
                 <label className="my-4 justify-evenly align-middle items-center flex flex-row">
-                    <p className='w-1/4'>Email:</p>
+                    <p className='w-1/4'>Email: </p>
                     <input
                         className="w-3/4 p-2 text-zinc-900 focus:outline-red-700"
                         name="email"
@@ -84,7 +84,7 @@ export default function ContactForm({title, media}) {
                 </label>
 
                 <label className="my-4 justify-evenly align-middle items-center flex flex-row">
-                    <p className='w-1/4'>Date of Birth:</p>
+                    <p className='w-1/4'>Dob: </p>
                     <input
                         className="w-3/4 p-2 text-zinc-900 focus:outline-red-700"
                         name="dateOfBirth"
@@ -96,7 +96,7 @@ export default function ContactForm({title, media}) {
                 </label>
 
                 <label className="my-4 justify-evenly align-middle items-center flex flex-row">
-                    <p className='w-1/4'>Tel:</p>
+                    <p className='w-1/4'>Tel: </p>
                     <input
                         className="w-3/4 p-2 text-zinc-900 focus:outline-red-700"
                         name="telephone"
@@ -132,7 +132,7 @@ export default function ContactForm({title, media}) {
                 </div>
 
                 <label className="my-4 justify-evenly align-middle items-center flex flex-row">
-                    <p className='w-1/4'>Referral source:</p>
+                    <p className='w-1/4'>Referral: </p>
                     <input
                         className="w-3/4 p-2 text-zinc-900 focus:outline-red-700"
                         name="referral"
