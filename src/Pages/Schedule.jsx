@@ -28,19 +28,24 @@ export default function Schedule() {
 
                     <h2 className='py-2 md:py-4 text-2xl md:text-3xl text-red-700 font-bold'>Class Schedule</h2>
 
-                    <h3 className='py-2 md:py-4 text-xl md:text-2xl'>Monday</h3>
+                    <h3 className='py-2 md:py-4 text-xl md:text-2xl font-extrabold text-red-600 underline'>Chapel Allerton</h3>
 
-                    <p className='py-4'>• 6:30 PM – Fundamentals (Sharpen your core techniques and movement)</p>
+                    <h3 className='py-2 md:py-4 text-xl md:text-xl'>Mondays & Wednesdays</h3>
 
-                    <p className='py-4'>• 7:30 PM – All Levels (Train with a mix of partners, from white to black
+                    <p className='py-4'>• 18:30 – 19:30 - Fundamentals (Sharpen your core techniques and movement)</p>
+
+                    <p className='py-4'>• 19:30 - 20:30 - All Levels (Train with a mix of partners, from white to black
                         belt)</p>
 
+                              <h3 className='py-2 md:py-4 text-xl md:text-2xl font-extrabold text-red-600 underline'>Harehills</h3>
 
-                    <h3 className='py-2 md:py-4 text-xl md:text-2xl '>Wednesday</h3>
+                    <h3 className='py-2 md:py-4 text-xl md:text-xl'>Friday</h3>
 
-                    <p className='py-4'>• 6:30 PM – Fundamentals</p>
+                    <p className='py-4'>• 17:30 – 19:00 - Open Mat</p>
 
-                    <p className='py-4'>• 7:30 PM – All Levels</p>
+                    <h3 className='py-2 md:py-4 text-xl md:text-xl'>Sunday</h3>
+
+                    <p className='py-4'>• 09:30 - 11:00 - No-Gi Jiu-jitsu</p>
 
                     <p className='py-4'>All classes are for adults (ages 14 and up).</p>
 

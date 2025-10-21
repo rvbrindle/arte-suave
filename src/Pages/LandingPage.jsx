@@ -23,24 +23,32 @@ import Lineage from "./Lineage";
             <div className='screen-1 w-screen min-h-screen flex text-center flex-col bg-black bg-opacity-70'>
                 <BgImg img={'bg-as-img.png'}/>
                 <Logo />
-                <div className='container text-neutral-100 mx-auto mb-2 motion-safe:animate-fadeInLeft p-8'>
+                <div className='container text-neutral-100 mx-auto motion-safe:animate-fadeInLeft p-2'>
                     <h1 className='text-2xl md:text-4xl font-extrabold'>Arte <span>Suave</span></h1>
                     <h3 className='md:text-2xl sm:text-xl tracking-widest'>Jiujitsu</h3>
                 </div>
-                <div className='text-neutral-100 text-2xl boldest mt-4 motion-safe:animate-fadeIn mb-12'>
+                <div className='text-neutral-100 text-xl boldest mt-2 motion-safe:animate-fadeIn mb-6'>
                     <p>
                         Chapel Allerton Primary School
                         <br/>
-                        Main Hall
+                        Harrogate Road
                         <br/>
                         LS7 3PD
+                        <br/>
+                    </p>
+                           <p className="mt-8">
+                        Star Cinema Buildings
+                        <br/>
+                        Glenthorpe Crescent
+                        <br/>
+                        LS9 7QP
                         <br/>
                     </p>
                 </div>
 
                 <div
                     className='text-red-700 text-center motion-safe:animate-fadeIn text:md md:text-lg'>
-                    Train Brazilian Jiu Jitsu in Chapel Allerton – Get <strong>Stronger</strong>, More <strong>Confident</strong>, and Ready for <strong>Anything!</strong>
+                    Train Brazilian Jiu Jitsu in Chapel Allerton & Harehills – Get <strong>Stronger</strong>, More <strong>Confident</strong>, and Ready for <strong>Anything!</strong>
                 </div>
                 <div
                     className='text-white mt-6 mx-auto w-3/4 md:w-1/3 flex flex-col justify-center content-center items-center text-center motion-safe:animate-fadeIn'
