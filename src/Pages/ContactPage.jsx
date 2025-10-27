@@ -13,7 +13,7 @@ export default function ContactPage() {
                 </div>
                 <div className='mx-auto w-3/4 flex flex-row justify-center items-center'>
                     <a className='w-full md:w-1/3 align-middle text-black flex flex-row justify-center hover:scale-110 hover:text-red-700 transition ease-in-out'
-                       href="mailto:info@artesuave.co.uk">
+                       href="mailto:royjitsu@artesuave.co.uk">
                         <Icon
                             width='11'
                             icon='mail'

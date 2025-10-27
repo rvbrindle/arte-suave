@@ -41,11 +41,11 @@ export default function Schedule() {
 
                     <h3 className='py-2 md:py-4 text-xl md:text-xl'>Friday</h3>
 
-                    <p className='py-4'>• 17:30 – 19:00 - Open Mat</p>
+                    <p className='py-4'>• 17:30 – 19:00 - Open Mat (Work on current techniques & Spar rounds)</p>
 
                     <h3 className='py-2 md:py-4 text-xl md:text-xl'>Sunday</h3>
 
-                    <p className='py-4'>• 09:30 - 11:00 - No-Gi Jiu-jitsu</p>
+                    <p className='py-4'>• 09:30 - 11:00 - No-Gi Jiu-jitsu (Beginner friendly for a mix of levels from white to black belt.)</p>
 
                     <p className='py-4'>All classes are for adults (ages 14 and up).</p>
 
@@ -77,7 +77,7 @@ export default function Schedule() {
 
                     <p className='py-2'>✔️ Drop-In Session: £10</p>
 
-                    <p className='pb-8'>✔️ Monthly Membership: £60 (paid by standing order)</p>
+                    <p className='pb-8'>✔️ Monthly Membership: £65 (paid by standing order)</p>
                     <JoinUs strapLine={'Ready to get started? Come train with us!'}/>
                 </div>
             </div>

@@ -29,7 +29,7 @@ export default function Meet() {
                         before
                         moving on to advanced classes. In 2019, he earned his black belt under Duane Harper and Leo
                         Negao,
-                        and he is now a first-degree black belt.</p>
+                        and he is now a second-degree black belt.</p>
 
                     <h2 className='pt-4 md:py-4 md:pt-8 text-2xl md:text-3xl text-red-700 font-bold'>John Harrison – Instructor (Black
                         Belt)</h2>
