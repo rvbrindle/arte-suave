@@ -29,19 +29,11 @@ import Lineage from "./Lineage";
                 </div>
                 <div className='text-neutral-100 text-xl boldest mt-2 motion-safe:animate-fadeIn mb-6'>
                     <p>
-                        Chapel Allerton Primary School
+                        Moorfield Road
                         <br/>
-                        Harrogate Road
+                        Armley
                         <br/>
-                        LS7 3PD
-                        <br/>
-                    </p>
-                           <p className="mt-8">
-                        Star Cinema Buildings
-                        <br/>
-                        Glenthorpe Crescent
-                        <br/>
-                        LS9 7QP
+                        LS12 3RN
                         <br/>
                     </p>
                 </div>
