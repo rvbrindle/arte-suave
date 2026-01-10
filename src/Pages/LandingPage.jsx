@@ -29,6 +29,10 @@ import Lineage from "./Lineage";
                 </div>
                 <div className='text-neutral-100 text-xl boldest mt-2 motion-safe:animate-fadeIn mb-6'>
                     <p>
+                        First Floor
+                        <br />
+                        Electron House
+                        <br />
                         Moorfield Road
                         <br/>
                         Armley
@@ -40,7 +44,7 @@ import Lineage from "./Lineage";
 
                 <div
                     className='text-red-700 text-center motion-safe:animate-fadeIn text:md md:text-lg'>
-                    Train Brazilian Jiu Jitsu in Chapel Allerton & Harehills – Get <strong>Stronger</strong>, More <strong>Confident</strong>, and Ready for <strong>Anything!</strong>
+                    Train Brazilian Jiu Jitsu in Armley – Get <strong>Stronger</strong>, More <strong>Confident</strong>, and Ready for <strong>Anything!</strong>
                 </div>
                 <div
                     className='text-white mt-6 mx-auto w-3/4 md:w-1/3 flex flex-col justify-center content-center items-center text-center motion-safe:animate-fadeIn'

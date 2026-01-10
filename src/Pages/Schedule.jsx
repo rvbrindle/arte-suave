@@ -32,7 +32,7 @@ export default function Schedule() {
 
                     <h3 className='py-2 md:py-4 text-xl md:text-xl'>Monday</h3>
 
-                    <p className='py-4'>• 18:00 – 19:00 - Fundamentals</p>
+                    <p className='py-4'>• 18:00 – 19:00 - Gi Fundamentals</p>
 
                     <p className='py-4'>• 19:00 - 20:30 - Mixed Level Bjj</p>
 
@@ -42,15 +42,25 @@ export default function Schedule() {
 
                     <h3 className='py-2 md:py-4 text-xl md:text-xl'>Wednesday</h3>
 
-                    <p className='py-4'>• 18:00 – 19:00 - Fundamentals</p>
+                    <p className='py-4'>• 18:00 – 19:00 - Gi Fundamentals</p>
 
                     <p className='py-4'>• 19:00 - 20:30 - Mixed Level Bjj</p>
+
+                    <h3 className='py-2 md:py-4 text-xl md:text-xl'>Thursday</h3>
+
+                    <p className='py-4'>• 16:30 – 18:00 - WY Police Training</p>
+
+                    <p className='py-4'>• 18:00 – 19:00 - Mixed Level NoGi</p>
+
+                    <p className='py-4'>• 19:00 – 20:00 - NoGi Sparring</p>
 
                     <h3 className='py-2 md:py-4 text-xl md:text-xl'>Friday</h3>
 
                     <p className='py-4'>• 17:30 – 19:00 - Open Mat</p>
 
                     <h3 className='py-2 md:py-4 text-xl md:text-xl'>Saturday</h3>
+
+                    <p className='py-4'>• 09:00 - 10:00 - Kids Bjj 7-13yrs (coming soon)</p>
 
                     <p className='py-4'>• 10:00 - 11:30 - Mixed Level Bjj</p>
 
